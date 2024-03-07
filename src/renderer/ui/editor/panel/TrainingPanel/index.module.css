@@ -1,0 +1,107 @@
+.root {
+    background-color: #171717;
+    color: white;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.label {
+    width: 120px;
+}
+
+.item {
+    background: #202020;
+    padding: 16px;
+    color: #cbcbcb;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.valueLabel {
+    width: 120px;
+
+}
+
+.split {
+    display: flex;
+    flex: 1;
+}
+
+.panel {
+    background: #202020;
+    padding: 16px;
+    color: #cbcbcb;
+    overflow-y: auto;
+}
+
+
+
+.flexPanel {
+    flex: 1;
+}
+
+.actionPanel {
+    width: 320px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.actionPanel::-webkit-scrollbar {
+    display: none;
+}
+.imageGrid {
+    width: 96px;
+    height: 96px;
+}
+
+.detailImage {
+    width: 180px;
+    height: 180px;
+}
+
+.tag {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.tagContainer {
+    margin-top: 16px;
+    min-height: 120px;
+    overflow: auto;
+
+}
+
+.itemNotSelect {
+    border: #202020 2px solid;
+}
+
+.itemSelect {
+    border: aqua 2px solid;
+}
+.toolbar{
+    width: 100vw;
+    height: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #202020;
+}
+
+.menuContainer{
+    background-color: #202020;
+}
+.menuButton{
+
+}
+.menuButton :hover{
+    background-color: #424242;
+}
+

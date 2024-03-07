@@ -1,0 +1,25 @@
+.root {
+  background: #171717;
+  color: white;
+  padding: 16px;
+
+}
+
+.label {
+  width: 120px;
+}
+
+.item {
+  margin-bottom: 16px;
+  background: #202020;
+  border-radius: 10px;
+  padding: 16px;
+  color: #cbcbcb;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.valueLabel {
+  width: 120px;
+
+}

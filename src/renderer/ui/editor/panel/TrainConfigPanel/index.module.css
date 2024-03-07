@@ -1,0 +1,127 @@
+.root {
+    background-color: #171717;
+    color: white;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.label {
+    width: 120px;
+}
+
+.item {
+    background: #202020;
+    padding: 16px;
+    color: #cbcbcb;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.valueLabel {
+    width: 120px;
+
+}
+
+.split {
+    display: flex;
+    flex: 1;
+}
+
+.panel {
+    background: #202020;
+    padding: 16px;
+    color: #cbcbcb;
+    overflow-y: auto;
+}
+
+.rawPanel{
+    background: #202020;
+    color: #cbcbcb;
+}
+.actionBar{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.flexPanel {
+    flex: 1;
+}
+
+
+.actionPanel::-webkit-scrollbar {
+    display: none;
+}
+.imageGrid {
+    width: 96px;
+    height: 96px;
+}
+
+.detailImage {
+    width: 180px;
+    height: 180px;
+}
+
+
+.itemNotSelect {
+    border: #202020 2px solid;
+}
+
+.itemSelect {
+    border: aqua 2px solid;
+}
+
+
+
+.menuContainer{
+    background-color: #202020;
+}
+.menuButton{
+
+}
+.menuButton :hover{
+    background-color: #424242;
+}
+.label {
+    width: 120px;
+}
+.itemLabel{
+    margin-right: 16px;
+
+}
+.itemLabelMeta{
+    font-size: 12px;
+    color: #cbcbcb;
+}
+.item {
+    margin-bottom: 16px;
+    background: #202020;
+    padding: 16px;
+    color: #cbcbcb;
+    max-height: 320px;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+
+}
+.itemAction{
+    margin-left: 16px;
+}
+.itemInput{
+    flex: 1;
+}
+.textInput {
+    border: none;
+    background-color: #171717;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}

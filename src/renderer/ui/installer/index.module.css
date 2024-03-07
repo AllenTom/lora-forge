@@ -1,0 +1,61 @@
+.root {
+  padding: 16px;
+  background-color: #171717;
+  color: white;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-size: 12px;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}
+
+.label {
+  width: 120px;
+}
+
+.item {
+  margin-bottom: 16px;
+  background: #202020;
+  border-radius: 10px;
+  padding: 16px;
+  color: #cbcbcb;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.valueLabel {
+  width: 120px;
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.logContainer {
+  flex: 1;
+  overflow-y: scroll;
+  color: white;
+  font-size: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.installButton {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.logContent {
+  font-size: 12px;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+}

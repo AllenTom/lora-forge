@@ -1,0 +1,22 @@
+.root {
+    background-color: #171717;
+    color: white;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.panel {
+    background: #202020;
+    color: #cbcbcb;
+    overflow-y: auto;
+}
+.item {
+    transition: 0.3s;
+}
+.item:hover {
+    background: #2a2a2a;
+    cursor: pointer;
+}
+

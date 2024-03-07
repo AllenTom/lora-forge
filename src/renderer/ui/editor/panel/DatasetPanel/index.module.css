@@ -1,0 +1,83 @@
+.panel {
+  padding: 16px;
+  color: #cbcbcb;
+}
+
+.actionPanel {
+  width: 240px;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.actionPanel::-webkit-scrollbar {
+  display: none;
+}
+
+.imageGrid {
+  width: 96px;
+  height: 96px;
+}
+
+.detailImage {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.tag {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.tagContainer {
+  margin-top: 16px;
+  min-height: 120px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-content: flex-start;
+}
+
+.itemNotSelect {
+  border: #202020 3px solid;
+}
+
+.itemSelect {
+  border: aqua 3px solid;
+}
+
+.flexContainer {
+  flex: 1;
+  position: relative;
+
+}
+
+.flexContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.folderTag {
+  background: rgba(0, 0, 0, 0.29);
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.folderTagActive {
+  background: #008252;
+}

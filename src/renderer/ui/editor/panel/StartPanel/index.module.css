@@ -1,0 +1,18 @@
+.root {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.categoryTitle {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}

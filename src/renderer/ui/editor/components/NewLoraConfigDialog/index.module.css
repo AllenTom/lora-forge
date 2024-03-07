@@ -1,0 +1,40 @@
+.label {
+  width: 120px;
+}
+.itemLabel{
+  margin-right: 16px;
+
+}
+.itemLabelMeta{
+  font-size: 12px;
+  color: #cbcbcb;
+}
+.item {
+  margin-bottom: 16px;
+  background: #202020;
+  border-radius: 10px;
+  padding: 16px;
+  color: #cbcbcb;
+  max-height: 320px;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+
+}
+.itemAction{
+  margin-left: 16px;
+}
+.itemInput{
+  flex: 1;
+}
+.textInput {
+  border: none;
+  background-color: #171717;
+  border-radius: 10px;
+}
+
+
+.flex{
+  display: flex;
+  align-items: center;
+}

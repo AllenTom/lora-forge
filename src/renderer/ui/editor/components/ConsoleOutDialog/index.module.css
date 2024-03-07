@@ -1,0 +1,10 @@
+.logContent {
+  font-size: 12px;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+  border-radius: 10px;
+  background-color: #202020;
+  height: 50vh;
+  overflow-y: auto;
+  padding: 16px;
+}

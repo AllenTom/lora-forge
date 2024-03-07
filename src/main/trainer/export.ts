@@ -1,0 +1,13 @@
+import './localservice/image';
+import './localservice/training';
+import './localservice/project';
+import './localservice/lora';
+import './localservice/config';
+import './localservice/repo';
+import './localservice/install';
+import './localservice/log';
+import './localservice/original';
+import './localservice/preprocess';
+import './localservice/doctor';
+import './localservice/pretrain';
+import './localservice/common'

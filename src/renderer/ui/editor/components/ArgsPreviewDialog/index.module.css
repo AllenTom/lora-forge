@@ -1,0 +1,15 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #202020;
+    width: 100%;
+    border-radius: 10px;
+}
+.itemArgName{
+    flex: 1;
+    margin-right: 32px;
+    line-break: anywhere;
+}
