@@ -197,7 +197,7 @@ const preProcessImage = async (config: PreProcessConfig, {
   if (config.flip) {
     args.push('--flip');
   }
-  console.log(args)
+  log.info(args)
   const trainConfig: LoraConfig = dataStore.get(DataStoreKeys.trainerConfig);
   if (!trainConfig.preprocessRepo) {
     return;
@@ -220,9 +220,10 @@ const preProcessImage = async (config: PreProcessConfig, {
 
   const scriptPath = path.join(trainConfig.preprocessRepo, 'preprocess_cli.py');
   const cwd = trainConfig.preprocessRepo;
-  console.log('preprocess', args, cwd, pythonExec, scriptPath, envs);
+
+  log.info('preprocess', args, cwd, pythonExec, scriptPath, envs);
   // print full command
-  console.log(`exec command: ${pythonExec} ${scriptPath} ${args.join(' ')}`);
+  log.info(`exec command: ${pythonExec} ${scriptPath} ${args.join(' ')}`);
   const process = runPythonScript({
     pythonExec,
     scriptPath,

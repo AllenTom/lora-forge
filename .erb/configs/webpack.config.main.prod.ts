@@ -10,10 +10,9 @@ import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import baseConfig from './webpack.config.base';
 import webpackPaths from './webpack.paths';
 import checkNodeEnv from '../scripts/check-node-env';
-import deleteSourceMaps from '../scripts/delete-source-maps';
 
 checkNodeEnv('production');
-deleteSourceMaps();
+// deleteSourceMaps();
 
 const configuration: webpack.Configuration = {
   devtool: 'source-map',
